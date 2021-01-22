@@ -1,5 +1,5 @@
 <div id="fullpage">
-  {% paginate blog.articles by 5 %}
+  {% paginate blog.articles by 7 %}
   <!-- <h1>{{ blog.title }}</h1> -->
   {% for article in blog.articles %}
     {% assign desktop_img = article.image | img_url: "master" %}

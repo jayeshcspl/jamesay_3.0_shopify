@@ -79,13 +79,13 @@ $(document).ready(function($) {
   if ($('#fullpage').length) {
     $('#fullpage').fullpage({
       //sectionsColor: ['#000000', '#000000', '#000000', '#000000', '#000000'],
-      sectionsColor: ['#686868', '#686868', '#686868', '#686868', '#686868'],
+      sectionsColor: ['#686868', '#686868', '#686868', '#686868', '#686868', '#686868', '#686868'],
       sectionSelector: '.vertical-scrolling',
       slideSelector: '.horizontal-scrolling',
       navigation: true,
       slidesNavigation: true,
       controlArrows: false,
-      anchors: ['firstSection', 'secondSection', 'thirdSection', 'fourthSection', 'fifthSection'],
+      anchors: ['firstSection', 'secondSection', 'thirdSection', 'fourthSection', 'fifthSection', 'sixthSection', 'seventhSection'],
       menu: '#menu',
       afterLoad: function(slideIndex){
         if( slideIndex == "firstSection" ) { 
